@@ -1,0 +1,24 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; 
+}
+
+.logo{
+	  display: inline-block;
+	  position: relative;
+	  margin: 5px;
+}
+li{
+	  display: inline-block;
+}
+a{
+	text-decoration: none
+}
+nav {
+  float: none;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+}
