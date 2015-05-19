@@ -15,7 +15,10 @@
     font-family: 'Oswald', sans-serif;
     color: black;
   }
-
+.row {
+  margin-right: 0;
+  margin-left: 0; 
+}
 /*aqui empeiza la parte de la 
 egacion*/
 
@@ -46,6 +49,11 @@ egacion*/
 .navbar-default {
   margin-bottom: 0px;
 }
+.navbar-nav{
+  span{
+      font-size: 30px;
+  }
+}
 
 .icon-lateral{
   list-style: none;
@@ -71,6 +79,7 @@ egacion*/
     position: fixed;
   width: 100%;
   z-index: 10;
+    border-bottom: 3px solid gray;
     h3{
       font-family: 'Oswald', sans-serif;
     }
@@ -79,15 +88,17 @@ egacion*/
   position: fixed;
   width: 100%;
   z-index: 10;
-  top: 87px;
-    background-color: rgb(234, 234, 234);
+  top: 80px;
+  background-color: rgb(234, 234, 234);
+  border-bottom: 2px solid;
+  color: gray;
 }
 
 
 
 
 aside {
-  top: 175px;
+  top: 184px;
   background-color: #EEF1F4;
   width: 6%;
   height: 100%;
@@ -158,10 +169,40 @@ span:hover {
   img{
     width: 80px;
   }
+  h2{
+    position: absolute;
+  padding-left: 111px;
+  padding-top: 10px;
+  }
 }
 .universidad{
   span{
       font-size: 35px;
   padding: 20px 8px;
   }
+}
+
+.dropdown-menu{
+    margin-left: 204px;
+}
+
+
+section {
+  top: 184px;
+  height: 100%;
+  padding-left: 44px;
+  width: 94%;
+  float: right;
+  position: relative;
+  background-color: #ecf0f1;
+}
+
+.horarios{
+    background-color: gray;
+  color: white;
+  padding: 3px 0px;
+  text-align: center;
+    h5{
+        font-size: 18px;
+    }
 }
