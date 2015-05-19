@@ -8,6 +8,14 @@
     padding: 0px;
   }
 
+  li{
+    list-style: none;
+  }
+  a{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+  }
+
 /*aqui empeiza la parte de la 
 egacion*/
 
@@ -49,9 +57,10 @@ egacion*/
 
 
 .glyphicon-home{
-      margin-top: -25px;
-  font-size: 41px;
+       font-size: 41px;
   text-align: center;
+  padding: 5px 10px;
+    padding: 5px 14px;
     h4{
         font-size: 16px;
   text-align: center;
@@ -62,12 +71,16 @@ egacion*/
     position: fixed;
   width: 100%;
   z-index: 10;
+    h3{
+      font-family: 'Oswald', sans-serif;
+    }
 }
 .fila-2{
   position: fixed;
   width: 100%;
   z-index: 10;
   top: 87px;
+    background-color: rgb(234, 234, 234);
 }
 
 
@@ -95,13 +108,6 @@ span:hover {
   background-color: white;
   color: red;
 }
-
-.list-group{
-  visibility: hidden;
-}
- span:hover{
-    visibility: visible;
-  }
 
 
 .nav-2{
@@ -146,3 +152,16 @@ span:hover {
 
 
 
+
+
+.foto{
+  img{
+    width: 80px;
+  }
+}
+.universidad{
+  span{
+      font-size: 35px;
+  padding: 20px 8px;
+  }
+}
