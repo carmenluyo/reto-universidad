@@ -3,22 +3,146 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box; 
 }
+.container {
+  width: 100%;
+    padding: 0px;
+  }
 
-.logo{
-	  display: inline-block;
-	  position: relative;
-	  margin: 5px;
+/*aqui empeiza la parte de la 
+egacion*/
+
+.listas{
+    text-align: right;
+    li{
+      padding: 20px 10px;
+      display: inline-block;
+    }
 }
-li{
-	  display: inline-block;
+.dropdown{
+  text-align: right;
 }
-a{
-	text-decoration: none
+.nav > li > a > img {
+  width: 10%;
 }
-nav {
-  float: none;
-  margin-bottom: 0;
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #555;
+}
+.navbar-header{
+  border: 1px solid;
+  padding: 18px 7px;
+  width: 76px;
+  height: 87px;
+}
+
+.navbar-default {
+  margin-bottom: 0px;
+}
+
+.icon-lateral{
+  list-style: none;
+    margin-left: -39px;
+  text-align: center;
+}
+
+
+
+
+.glyphicon-home{
+      margin-top: -25px;
+  font-size: 41px;
+  text-align: center;
+    h4{
+        font-size: 16px;
+  text-align: center;
+    }
+}
+
+.fila-1{
+    position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.fila-2{
   position: fixed;
   width: 100%;
-  z-index: 30;
+  z-index: 10;
+  top: 87px;
 }
+
+
+
+
+aside {
+  top: 175px;
+  background-color: #EEF1F4;
+  width: 6%;
+  height: 100%;
+  position: fixed;
+    li{
+        border: 1px solid;
+    }
+    span{
+      font-size: 40px;
+      color: black;
+      padding: 12px 0px;
+        h4{
+            font-size: 13px;
+        }
+    }
+}
+span:hover {
+  background-color: white;
+  color: red;
+}
+
+.list-group{
+  visibility: hidden;
+}
+ span:hover{
+    visibility: visible;
+  }
+
+
+.nav-2{
+    background: #FFF;
+}
+.nav-2 li{
+   list-style: none;
+   position:relative; /* importante, para que el submenu tome la posición correcta*/
+}
+.nav-2 li a{
+  background-color: white;
+   color:#666;
+   text-decoration:none;
+   padding: 5px;
+   display:block;
+}
+.nav-2 li a:hover {
+  color: red;
+}
+.nav-2 li.parent:hover{
+   border:1px #ccc solid;
+   margin:-1px;
+   background:#F8F8F8;
+}
+.nav-2 li li a{
+   width:250px;/*el ancho de los links del submenu, debe ser fijo, esto servirá para crear la animación mas adelante */
+   display:block;
+}
+/* aquí esta lo importante!! */
+.nav-2 li ul {
+  display: none;
+  position: absolute;
+  left: 46%;
+  top: -1px;
+}
+.nav-2 li:hover ul {
+   display: block;
+}
+
+
+
+
+
+
