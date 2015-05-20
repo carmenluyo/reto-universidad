@@ -5163,7 +5163,8 @@ a {
   margin-bottom: 0px; }
 
 .navbar-nav span {
-  font-size: 30px; }
+  font-size: 28px;
+  padding: 8px; }
 
 /*aqui termina la parte de la navegacion*/
 .icon-lateral {
@@ -5241,7 +5242,7 @@ section {
   width: 92%;
   float: right;
   position: relative;
-  background-color: #ecf0f1; }
+  background-image: url(../img/fondo.jpg); }
 
 .horarios {
   background-color: gray;
@@ -5274,6 +5275,8 @@ hr {
   padding: 0px 55px; }
 .section-derecho li {
   text-align: center; }
+.section-derecho a {
+  padding: 5px; }
 
 .horario {
   background-color: #cac6c6;
