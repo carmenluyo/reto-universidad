@@ -1,3 +1,6 @@
-$('.mostrar').hover(function(){
-	$('.mostrar-1').removeClass('hidden');
+
+$( document ).ready(function() {
+  $('.mostrar').hover(function(){
+    $('.mostrar-1').removeClass('hidden');
+  });
 });
