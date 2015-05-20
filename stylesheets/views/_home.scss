@@ -77,6 +77,7 @@
 }
 
 .fila-1{
+    background-color: white;
     position: fixed;
   width: 100%;
   z-index: 10;
@@ -89,7 +90,7 @@
   position: fixed;
   width: 100%;
   z-index: 10;
-  top: 80px;
+  top: 77px;
   background-color: rgb(234, 234, 234);
   border-bottom: 2px solid;
   color: gray;
@@ -99,8 +100,8 @@
 
 
 aside {
-  top: 29%;
-  width: 10%;
+      top: 25%;
+    width: 8%;
   position: fixed;
     a {
     color: gray;
@@ -118,11 +119,17 @@ aside {
       font-size: 40px;
       margin: 2px 30px; 
     }
+    .nav > li > a {
+  padding: 0px 0px;
+}
 }
 
 
 
-
+.navbar-nav > li > a {
+   padding-top: 0px; 
+   padding-bottom: 0px;
+}
 
 
 
@@ -150,10 +157,9 @@ aside {
 
 
 section {
-  top: 210px;
+  top: 161px;
   height: 100%;
-  padding-left: 44px;
-  width: 90%;
+    width: 92%;
   float: right;
   position: relative;
   background-color: #ecf0f1;
@@ -175,16 +181,13 @@ hr {
   border-color: gray;
   }
 
-.nav > li > a {
-  padding: 28px 13px; 
-}
-
 
 
 
 
 .inicio{
     background-color: white;
+      padding: 0px;
     ul{
       background-color: white;
       padding: 0px 9px;
@@ -209,4 +212,122 @@ hr {
     li{
         text-align: center;
     }
+}
+
+
+
+
+.horario{
+  background-color: rgb(202, 198, 198);
+  color: white;
+  padding: 0px 20px;
+}
+.blanco{
+  background-color: white;
+  border-bottom: 2px solid rgb(195, 190, 190);
+}
+
+.row-vacio{
+  height: 40px;
+  background-color: white;
+  border-bottom: 2px solid rgb(195, 190, 190);
+}
+
+.padding-none{
+    padding: 0px 3px;
+}
+.m{
+  padding: 9px 11px;}
+.mo{
+    padding: 9px 8px;
+}
+.am{
+    padding: 9px 16px;
+}
+
+
+
+
+.cursos{
+    background-color: rgb(202, 198, 198);
+  color: white;
+}
+.cursos-blanco{
+    background-color: white;
+      margin-top: 7px;
+      padding: 9px 0px;
+      h6{
+          margin-left: 10px;
+      }
+}
+.top-none{
+  margin-top: 0px;
+}
+.padding-none-2{
+  padding: 0px;
+}
+
+
+
+.reservas{
+  background-color: rgb(202, 198, 198);
+  color: white;
+}
+
+.vacio{
+    background-color: white;
+  height: 48px;
+  margin-top: 7px;
+}
+
+
+.pagos{
+  background-color: rgb(202, 198, 198);
+  color: white;
+}
+
+.datos{
+  background-color: white;
+}
+.boleta{
+    text-align: center;
+  margin-left: -24px;
+    padding: 20px;
+    border-right: 1px solid gray;
+    span{
+       font-size: 38px;
+
+    }
+}
+.boleta-vencida{
+    padding: 20px 0px;
+  text-align: center;
+  span{
+    font-size: 38px;
+    color: red;
+  }
+}
+
+
+
+.noticias{
+    background-color: rgb(202, 198, 198);
+  color: white;
+  text-align: center;
+    padding: 15px;
+}
+
+.contenido-noticias{
+    margin-top: -9px;
+  background-color: white;
+  padding: 25px 22px;
+    a{
+        color: rgb(21, 199, 205);
+    }
+}
+
+
+
+.top{
+    margin-top: 40px;
 }
