@@ -5136,8 +5136,7 @@ a {
   margin-right: 0;
   margin-left: 0; }
 
-/*aqui empeiza la parte de la 
-egacion*/
+/*aqui empeiza la parte de la navegacion*/
 .listas {
   text-align: right; }
   .listas li {
@@ -5166,6 +5165,7 @@ egacion*/
 .navbar-nav span {
   font-size: 30px; }
 
+/*aqui termina la parte de la navegacion*/
 .icon-lateral {
   list-style: none;
   margin-left: -39px;
@@ -5198,61 +5198,21 @@ egacion*/
   color: gray; }
 
 aside {
-  top: 184px;
-  background-color: #EEF1F4;
-  width: 6%;
-  height: 100%;
+  top: 29%;
+  width: 10%;
   position: fixed; }
-  aside li {
-    border: 1px solid; }
-  aside span {
+  aside a {
+    color: gray;
+    text-align: center;
+    font-size: 12px; }
+  aside .nav > li > a:hover, aside .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #FDFDFD;
+    color: red; }
+  aside .glyphicon {
+    display: block;
     font-size: 40px;
-    color: black;
-    padding: 12px 0px; }
-    aside span h4 {
-      font-size: 13px; }
-
-span:hover {
-  background-color: white;
-  color: red; }
-
-.nav-2 {
-  background: #FFF; }
-
-.nav-2 li {
-  list-style: none;
-  position: relative;
-  /* importante, para que el submenu tome la posici├│n correcta*/ }
-
-.nav-2 li a {
-  background-color: white;
-  color: #666;
-  text-decoration: none;
-  padding: 5px;
-  display: block; }
-
-.nav-2 li a:hover {
-  color: red; }
-
-.nav-2 li.parent:hover {
-  border: 1px #ccc solid;
-  margin: -1px;
-  background: #F8F8F8; }
-
-.nav-2 li li a {
-  width: 250px;
-  /*el ancho de los links del submenu, debe ser fijo, esto servir├í para crear la animaci├│n mas adelante */
-  display: block; }
-
-/* aqu├¡ esta lo importante!! */
-.nav-2 li ul {
-  display: none;
-  position: absolute;
-  left: 46%;
-  top: -1px; }
-
-.nav-2 li:hover ul {
-  display: block; }
+    margin: 2px 30px; }
 
 .foto img {
   width: 80px; }
@@ -5269,10 +5229,10 @@ span:hover {
   margin-left: 204px; }
 
 section {
-  top: 184px;
+  top: 210px;
   height: 100%;
   padding-left: 44px;
-  width: 94%;
+  width: 90%;
   float: right;
   position: relative;
   background-color: #ecf0f1; }
@@ -5284,5 +5244,31 @@ section {
   text-align: center; }
   .horarios h5 {
     font-size: 18px; }
+
+hr {
+  border-color: gray; }
+
+.nav > li > a {
+  padding: 28px 13px; }
+
+.inicio {
+  background-color: white; }
+  .inicio ul {
+    background-color: white;
+    padding: 0px 9px; }
+  .inicio a {
+    color: gray;
+    text-align: center; }
+  .inicio li {
+    margin-left: -17px;
+    padding: 0px 9px; }
+  .inicio .nav > li > a:hover, .inicio .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent; }
+
+.section-derecho ul {
+  padding: 0px 55px; }
+.section-derecho li {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
