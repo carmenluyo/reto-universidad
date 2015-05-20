@@ -1,8 +1,3 @@
-
-
 $('.mostrar').hover(function(){
-	$('.mostrar-1').show();
+	$('.mostrar-1').removeClass('hidden');
 });
-
-
-
