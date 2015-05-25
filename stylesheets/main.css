@@ -5200,9 +5200,11 @@ a {
   color: gray; }
 
 aside {
+  float: left;
   top: 25%;
   width: 8%;
-  position: fixed; }
+  position: fixed;
+  z-index: 9; }
   aside a {
     color: gray;
     text-align: center;
@@ -5213,7 +5215,7 @@ aside {
     color: red; }
   aside .glyphicon {
     display: block;
-    font-size: 40px;
+    font-size: 34px;
     margin: 2px 30px; }
   aside .nav > li > a {
     padding: 0px 0px; }
@@ -5293,7 +5295,7 @@ hr {
   border-bottom: 2px solid #c3bebe; }
 
 .padding-none {
-  padding: 0px 3px; }
+  padding: 0px 0px; }
 
 .m {
   padding: 9px 11px; }
@@ -5310,8 +5312,7 @@ hr {
 
 .cursos-blanco {
   background-color: white;
-  margin-top: 7px;
-  padding: 9px 0px; }
+  margin-top: 7px; }
   .cursos-blanco h6 {
     margin-left: 10px; }
 
@@ -5338,25 +5339,19 @@ hr {
   background-color: white; }
 
 .boleta {
-  text-align: center;
-  margin-left: -24px;
-  padding: 20px;
   border-right: 1px solid gray; }
   .boleta span {
     font-size: 38px; }
 
-.boleta-vencida {
-  padding: 20px 0px;
-  text-align: center; }
-  .boleta-vencida span {
-    font-size: 38px;
-    color: red; }
+.boleta-vencida span {
+  font-size: 38px;
+  color: red; }
 
 .noticias {
   background-color: #cac6c6;
   color: white;
   text-align: center;
-  padding: 15px; }
+  padding: 7px; }
 
 .contenido-noticias {
   margin-top: -9px;
@@ -5366,6 +5361,67 @@ hr {
     color: #15c7cd; }
 
 .top {
-  margin-top: 40px; }
+  margin-top: 20px; }
+
+/*pruebaa*/
+.nav-2 {
+  background: #FFF; }
+
+.nav-2 li {
+  list-style: none;
+  position: relative;
+  /* importante, para que el submenu tome la posici├│n correcta*/ }
+
+.nav-2 li a {
+  background-color: white;
+  color: #666;
+  text-decoration: none;
+  padding: 5px;
+  display: block; }
+
+.nav-2 li a:hover {
+  color: red; }
+
+.nav-2 li.parent:hover {
+  border: 1px #ccc solid;
+  margin: -1px;
+  background: #F8F8F8; }
+
+.nav-2 li li a {
+  width: 140px;
+  border-bottom: solid 1px;
+  display: block; }
+
+/* aqu├¡ esta lo importante!! */
+.nav-2 li ul {
+  display: none;
+  position: absolute;
+  left: 61%;
+  top: -17px; }
+
+.nav-2 li:hover ul {
+  display: block; }
+
+.glyphicon-eye-open {
+  font-size: 25px;
+  padding: 10px 0px; }
+
+.curso-falta {
+  text-align: center;
+  margin-top: 10px;
+  display: none; }
+
+.curso-promedio {
+  color: red;
+  display: none;
+  text-align: center;
+  margin-top: 10px; }
+
+.icon-eye {
+  margin-left: -42px; }
+
+.datos .icon-eye {
+  margin-left: 0px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

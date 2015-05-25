@@ -96,12 +96,12 @@
 }
 
 
-
-
 aside {
-      top: 25%;
-    width: 8%;
+  float: left;
+  top: 25%;
+  width: 8%;
   position: fixed;
+  z-index: 9;
     a {
     color: gray;
     text-align: center;
@@ -115,7 +115,7 @@ aside {
 
     .glyphicon {
       display: block;
-      font-size: 40px;
+      font-size: 34px;
       margin: 2px 30px; 
     }
     .nav > li > a {
@@ -236,7 +236,7 @@ hr {
 }
 
 .padding-none{
-    padding: 0px 3px;
+    padding: 0px 0px;
 }
 .m{
   padding: 9px 11px;}
@@ -257,7 +257,6 @@ hr {
 .cursos-blanco{
     background-color: white;
       margin-top: 7px;
-      padding: 9px 0px;
       h6{
           margin-left: 10px;
       }
@@ -268,6 +267,8 @@ hr {
 .padding-none-2{
   padding: 0px;
 }
+
+    
 
 
 
@@ -292,9 +293,6 @@ hr {
   background-color: white;
 }
 .boleta{
-    text-align: center;
-  margin-left: -24px;
-    padding: 20px;
     border-right: 1px solid gray;
     span{
        font-size: 38px;
@@ -302,8 +300,6 @@ hr {
     }
 }
 .boleta-vencida{
-    padding: 20px 0px;
-  text-align: center;
   span{
     font-size: 38px;
     color: red;
@@ -313,16 +309,16 @@ hr {
 
 
 .noticias{
-    background-color: rgb(202, 198, 198);
+  background-color: rgb(202, 198, 198);
   color: white;
   text-align: center;
-    padding: 15px;
+  padding: 7px;
 }
 
 .contenido-noticias{
     margin-top: -9px;
   background-color: white;
-  padding: 25px 22px;
+    padding: 25px 22px;
     a{
         color: rgb(21, 199, 205);
     }
@@ -331,6 +327,86 @@ hr {
 
 
 .top{
-    margin-top: 40px;
+  margin-top: 20px;
 }
 
+
+
+
+
+
+
+
+
+/*pruebaa*/
+
+
+
+.nav-2{
+    background: #FFF;
+}
+.nav-2 li{
+   list-style: none;
+   position:relative; /* importante, para que el submenu tome la posición correcta*/
+}
+.nav-2 li a{
+  background-color: white;
+   color:#666;
+   text-decoration:none;
+   padding: 5px;
+   display:block;
+}
+.nav-2 li a:hover {
+  color: red;
+}
+.nav-2 li.parent:hover{
+   border:1px #ccc solid;
+   margin:-1px;
+   background:#F8F8F8;
+}
+.nav-2 li li a{
+  width: 140px;
+  border-bottom: solid 1px;
+  display: block;
+}
+/* aquí esta lo importante!! */
+.nav-2 li ul {
+  display: none;
+  position: absolute;
+  left: 61%;
+  top: -17px;
+}
+.nav-2 li:hover ul {
+   display: block;
+}
+
+
+
+
+
+.glyphicon-eye-open{
+  font-size: 25px;
+  padding: 10px 0px
+}
+
+.curso-falta{
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+}
+
+.curso-promedio{
+  color: red;
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.icon-eye{
+  margin-left: -42px;
+}
+.datos{
+  .icon-eye{
+    margin-left: 0px;
+    text-align: center;
+  }
+}
